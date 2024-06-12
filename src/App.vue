@@ -1,11 +1,17 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import SqlInput from './components/SqlInput.vue';
 </script>
 
 <template>
- <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <div class="m-20 w-full">
+    <h1 class=" font-bold text-4xl text-center ">
+    SQL VISUALIZER
+    </h1>
+    <SqlInput/>
+  </div>
+
+  
 </template>
 
 <style scoped>
